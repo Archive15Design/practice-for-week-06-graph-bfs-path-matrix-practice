@@ -14,16 +14,16 @@ In this practice, you will implement a breadth-first search of a matrix.
 ## The Problem
 
 Given a matrix, start node, and end value, search the matrix from start node
-until you find the end value using a **breadth-first search**. 
+until you find the end value using a **breadth-first search**.
 
-Return an array with _all_ of the [row, col] coordinates (nodes) that the breadth-first-search will visit while traversing from the start node to 
+Return an array with _all_ of the [row, col] coordinates (nodes) that the breadth-first-search will visit while traversing from the start node to
 the end value. If the end value is not found,
 return false.
 
 Examples:
 
 ```javascript
-const matrix1 = [ 
+const matrix1 = [
     [  1,  2,  3,  4 ],
     [  5,  6,  7,  8 ],
     [  9, 10, 11, 12 ],
@@ -57,7 +57,7 @@ bfsPath(matrix1, [ 2, 2 ], 17)
 
 This function should accept a single node from the matrix, as well as the matrix
 itself. The function should return an array containing all of the valid
-neighbor nodes of that node, in `[ row, col ]` format. 
+neighbor nodes of that node, in `[ row, col ]` format.
 
 *A valid neighbor is a node directly above, below, to the left and to the right
 of the node, and does **NOT** include diagonal neighbors.*
@@ -70,7 +70,7 @@ edge or corners of the matrix.
 
 This function should accept a matrix (two-dimensional array), a start node, and
 an end value. The start node is in the `[ row, col ]` format, and points to a
-specific coordinate on the matrix itself. 
+specific coordinate on the matrix itself.
 
 The function should return an array of `[ row, col ]` coordinates that represent
 the path of the breadth-first search.
